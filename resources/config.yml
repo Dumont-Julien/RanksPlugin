@@ -1,0 +1,24 @@
+# ____       _      _   _   _  __  ____
+#|  _ \     / \    | \ | | | |/ / / ___|
+#| |_) |   / _ \   |  \| | | ' /  \___ \
+#|  _ <   / ___ \  | |\  | | . \   ___) |
+#|_| \_\ /_/   \_\ |_| \_| |_|\_\ |____/
+
+
+#Global settings
+prefix: '§6Ranks §7» §r'
+lang: fra
+
+#Saving, type of config : mysql | config
+config: config
+
+#database information
+user_name: "Your_UserName"
+password: "Your_Password"
+hostname: "Your_HostName"
+schema: "ranks_data"
+#is default port
+port: 3306
+
+banned-name:
+  - ranksplugin
