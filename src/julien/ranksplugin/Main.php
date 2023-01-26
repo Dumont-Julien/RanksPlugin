@@ -25,14 +25,14 @@ class Main extends PluginBase {
 
     use SingletonTrait;
 
-    private DataBaseConnector $db;
+    public DataBaseConnector $db;
     public Config $config;
     public Language $language;
 
     protected function onLoad(): void {
         self::setInstance($this);
 
-        $this->language = new Language($this->config->get("'lang"));
+        $this->language = new Language($this->config->get('lang'));
     }
 
     protected function onEnable(): void {

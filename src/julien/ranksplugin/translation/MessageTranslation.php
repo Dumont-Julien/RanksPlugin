@@ -19,7 +19,7 @@ use julien\ranksplugin\exception\MissingLanguageArgumentException;
 use julien\ranksplugin\Main;
 use pocketmine\utils\Config;
 
-class MessageTranslation {
+final class MessageTranslation {
 
     /**
      * @throws MissingLanguageArgumentException
